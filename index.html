@@ -1,0 +1,52 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>带有左侧导航的UI</title>  
+  <style>  
+    /* 样式代码 */  
+    .container {  
+      display: flex;  
+      flex-direction: row;  
+    }  
+  
+    .navbar {  
+      background-color: #333;  
+      width: 200px;  
+      overflow: hidden;  
+    }  
+  
+    .navbar a {  
+      float: left;  
+      display: block;  
+      color: #f2f2f2;  
+      text-align: center;  
+      padding: 14px 16px;  
+      text-decoration: none;  
+    }  
+  
+    .navbar a:hover {  
+      background-color: #ddd;  
+      color: black;  
+    }  
+  
+    .content {  
+      margin-left: 200px; /* 与导航栏的宽度保持一致 */  
+    }  
+  </style>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>  
+<body>  
+  <div class="container">  
+    <div class="navbar">  
+      <a href="#home">首页</a>  
+      <a href="#news">新闻</a>  
+      <a href="#contact">联系我们</a>  
+      <a href="#about">关于我们</a>  
+    </div>  
+    <div class="content">  
+      <h3>欢迎来到我们的网站！</h3>  
+      <p>这是一个带有左侧导航的简单UI示例。</p>  
+    </div>  
+  </div>  
+</body>  
+</html>
